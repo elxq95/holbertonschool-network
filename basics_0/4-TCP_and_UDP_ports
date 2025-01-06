@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Display active listening ports with PID and Program name
+sudo netstat -tulnp | grep LISTEN
