@@ -1,3 +1,4 @@
 #!/bin/bash
 
-sudo netstat -tulnp | grep LISTEN
+# Display listening ports with program names and PIDs
+sudo netstat -tulnvp | grep LISTEN
